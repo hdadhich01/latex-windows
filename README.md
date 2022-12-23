@@ -1,15 +1,16 @@
 # 📜 LaTeX on Windows
+
 Learn how to get started with writing LaTeX on Windows. This guide assumes a [Windows 10 or 11](https://www.microsoft.com/en-us/software-download/) and a [Visual Studio Code](#%E2%8C%A8%EF%B8%8F-visual-studio-code) installation.
 
 - [📜 LaTeX on Windows](#-latex-on-windows)
-  - [⌨️ Visual Studio Code](#️-visual-studio-code)
+  - [⌨️ Visual Studio Code](#%EF%B8%8F-visual-studio-code)
   - [🪟 WSL](#-wsl)
-    - [⤵️ Install](#️-install)
+    - [⤵️ Install](#%EF%B8%8F-install)
     - [💡 Enable](#-enable)
   - [🐧 Ubuntu](#-ubuntu)
-    - [⤵️ Install](#️-install-1)
-  - [🖊️ LaTeX](#️-latex)
-    - [⤵️ Install](#️-install-2)
+    - [⤵️ Install](#%EF%B8%8F-install-1)
+  - [🖊️ LaTeX](#%EF%B8%8F-latex)
+    - [⤵️ Install](#%EF%B8%8F-install-2)
 
 ## ⌨️ Visual Studio Code
 
@@ -61,15 +62,21 @@ ubuntu install --ui=none
 ```
 
 ## 🖊️ LaTeX
+
 ### ⤵️ Install
+
 Install the tools to compile LaTeX locally with:
+
 ```bash
 sudo apt update
 sudo apt install texlive-full -y
 ```
+
 Now start a LaTeX project with:
+
 ```bash
 cd && mkdir proj && cd $_
 touch main.tex && code .
 ```
-Edit your LaTeX file with a template from [Overleaf](https://www.overleaf.com/latex/templates), and simply save for the LaTeX Workshop extension to compile it into a PDF. Check out [autoCV](https://github.com/jitinnair1/autoCV) to set up CI/CD to push edits to your online portfolio/site.
+
+Edit your `main.tex` file with a template from [Overleaf](https://www.overleaf.com/latex/templates), and simply save for the LaTeX Workshop extension to compile it into a PDF. Check out [autoCV](https://github.com/jitinnair1/autoCV) to set up CI/CD to push edits to your online portfolio/site.
