@@ -79,4 +79,4 @@ cd && mkdir proj && cd $_
 touch main.tex && code .
 ```
 
-Edit your `main.tex` file with a template from [Overleaf](https://www.overleaf.com/latex/templates), and simply save for the LaTeX Workshop extension to compile it into a PDF. Check out [autoCV](https://github.com/jitinnair1/autoCV) to set up CI/CD to push edits to your online portfolio/site.
+Edit your `main.tex` file with a template from [Overleaf](https://www.overleaf.com/latex/templates), and simply save for the LaTeX Workshop extension to compile into a PDF. Check out [autoCV](https://github.com/jitinnair1/autoCV) to set up CI/CD to push edits to your online portfolio/site.
