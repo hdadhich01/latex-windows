@@ -8,7 +8,7 @@ repos:
       - id: trailing-whitespace
 
   - repo: https://github.com/cmhughes/latexindent.pl
-    rev: V3.20
+    rev: V3.20.1
     hooks:
       - id: latexindent
 
