@@ -75,7 +75,7 @@ sudo apt install texlive-full -y
 Now start a LaTeX project with:
 
 ```bash
-cd && mkdir proj && cd $_
+mkdir ~/proj && cd $_
 touch main.tex && code .
 ```
 
