@@ -2,16 +2,6 @@
 
 Learn how to get started with writing LaTeX on Windows. This guide assumes a [Windows 10 or 11](https://www.microsoft.com/en-us/software-download/) and a [Visual Studio Code](#%E2%8C%A8%EF%B8%8F-visual-studio-code) installation.
 
-- [📜 LaTeX on Windows](#-latex-on-windows)
-  - [⌨️ Visual Studio Code](#%EF%B8%8F-visual-studio-code)
-  - [🪟 WSL](#-wsl)
-    - [⤵️ Install](#%EF%B8%8F-install)
-    - [💡 Enable](#-enable)
-  - [🐧 Ubuntu](#-ubuntu)
-    - [⤵️ Install](#%EF%B8%8F-install-1)
-  - [🖊️ LaTeX](#%EF%B8%8F-latex)
-    - [⤵️ Install](#%EF%B8%8F-install-2)
-
 ## ⌨️ Visual Studio Code
 
 We will be using [Visual Studio Code](https://code.visualstudio.com/), the most popular code editor out today, along with some extensions:
